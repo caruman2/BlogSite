@@ -60,6 +60,7 @@ class Comment(db.Model):
 
 
 # db.create_all()
+
 gravatar = Gravatar(app,
                     size=100,
                     rating='g',
